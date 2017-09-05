@@ -11,7 +11,7 @@ export JAVA_OPTS='-server -Xms1g -Xmx2g -XX:+AggressiveOpts -XX:CMSInitiatingOcc
 ```
 Details refer to [here](http://blog.sokolenko.me/2014/11/javavm-options-production.html)
 
-In `conf/server/xml`
+In `conf/server.xml`
 ```
     <Connector port="8080" protocol="HTTP/1.1"
                maxHttpHeaderSize="8192"
